@@ -1,0 +1,90 @@
+section{
+	height: auto;
+}
+.container {
+	height: auto;
+}
+.container h1{
+	text-align: center;
+	font-size: 32pt;
+	padding-bottom: 20px;
+}
+.faq-box {
+	margin-top: 10px;
+	font-size: 14pt;
+	padding-bottom: 50px;
+}
+.work-are input {
+  display: none;
+  visibility: hidden;
+}
+.work-are label {
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  color: #666;
+  font-size: 16pt;
+  font-weight: 600;
+}
+.work-are label:hover {
+  color: #000;
+}
+.work-are label::before {
+  font-weight: bold;
+  font-size: 15px;
+  content: "+";
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  background: none;
+}
+.work-are .expand {
+  height: 0px;
+  overflow: auto;
+  transition: height 0.5s;
+  color: #000;
+}
+.work-are .expand section p{
+ 	background-color: #ffffff99;
+}#toggle-1:checked ~ .content-1-expand,#toggle-2:checked ~ .content-2-expand,#toggle-3:checked ~ .content-3-expand,#toggle-4:checked ~ .content-4-expand,#toggle-5:checked ~ .content-5-expand {
+  height: 200px;
+  padding: 30px;
+}#toggle-1:checked ~ label::before,#toggle-2:checked ~ label::before,#toggle-3:checked ~ label::before,#toggle-4:checked ~ label::before,#toggle-5:checked ~ label::before {
+  content: "-";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
